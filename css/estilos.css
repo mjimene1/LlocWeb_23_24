@@ -1,0 +1,188 @@
+*{
+    font-family: Arial, Serif, "Geneva";
+}
+
+h1 {
+    font-size: 3em;
+    color: #29283D;
+}
+
+body{
+    background-color: #EDEDED;
+}
+
+header, nav , #principal {
+    width: 1080px;
+    margin: 0;
+}
+
+#textLogo{
+    float: right;
+}
+
+#logo{
+    height: 55px;
+    width: 50px;
+}
+
+#portada {
+    margin-bottom: 10px;
+}
+
+#principal,header,#titulo div h1{
+    width: 1080px; 
+    margin: auto;
+}
+
+nav {
+    display: inline-block;
+    background-color: #0B0B3B;
+    text-align: center;
+    width: 100%;
+}
+
+nav div ul li {
+    display: inline-block;
+    width: 170px;
+    position: relative;
+    height: 18px;
+    padding: 18px;
+}
+
+nav div ul li a {
+    color: #FDC52C;
+    font-size:  16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav div ul li a:hover{
+    opacity: 0.8;
+}
+#submenu {
+    position: absolute;
+    display: none;
+    font-weight: bold;
+    top: 40px;
+}
+#submenu li {
+    color: #FDC52C;
+    background-color: rgba(11,11,59,0.7);
+}
+#submenu li:hover {
+    opacity: 0.8;
+}
+#artistes:hover #submenu {
+    display: block;
+}
+ 
+#titulo {
+     background-color:#5755AB; 
+     width: 100%;
+}
+#titulo h1 {
+    color: white;
+}
+#textArtistes{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.infoArtista,.infoGrup{
+    width: 275px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 1px solid;
+    border-color:#DCDCDC;
+    border-top: 2px solid;
+    border-top-color: black;
+    float: left;
+}
+.infoArtista:hover,.infoGrup:hover{
+    opacity: 0.6;
+}
+.infoArtista img, .infoGrup img{
+    width: 275px;
+    height: 260px;
+}
+
+.acronim {
+    font-size: 30px;
+    width: 70px;
+    height: 50px;
+    border-right: 1px solid;
+    border-right-color: #EDEDED;
+    text-align: center;
+    float: left;
+    margin-top: 0px;
+}
+
+.nomArtista {
+    width: 180px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 5px;
+    float: left;
+}
+
+.estilMusica {
+    width: 180px;
+    height: 20px;
+    padding-left: 10px;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+#textGrups {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.nomGrup {
+    width: 250px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.estilGrup {
+    width: 250px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer {
+    height: 40px;
+    font-size: 12px;
+    background-color: #0B0B3B;
+    border: 1px solid #DCDCDC;
+    text-align: center;
+    vertical-align: middle;
+    color: #FDC52C;
+    font-weight: bold;
+}
+
+.cellConcerts, .cellArtistes {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid;
+    padding: 10px;
+  }
+
+#bodyConcerts, #bodyVideos, #bodyArtistes{
+    margin-left: 10px;    
+}
